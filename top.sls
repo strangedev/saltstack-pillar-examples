@@ -5,7 +5,6 @@ base:
     - users
     - groupnames
     - docker
-
-  'k8s*':
+    - git-remote
     - docker
     - kubernetes
