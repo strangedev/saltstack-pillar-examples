@@ -1,4 +1,15 @@
-groups:
+users:  # these users will be created and updated
+  ciordas:
+  hummel:
+    fullname: Noah Hummel
+  wollny:
+  biedermann:
+  ahmad:
+
+alumni:  # these users and all of their data will be removed
+  - testuser
+
+groups:  # group membership is defined here
   sudo:
     - ciordas
     - hummel
@@ -10,11 +21,3 @@ groups:
     - hummel
     - wollny
     - biedermann
-
-users:
-  ciordas: 
-  hummel:
-    fullname: Noah Hummel
-  wollny:
-  biedermann:
-  ahmad:
