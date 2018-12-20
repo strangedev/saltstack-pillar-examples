@@ -6,5 +6,3 @@ base:
     - groupnames
     - docker
     - git-remote
-    - docker
-    - kubernetes
