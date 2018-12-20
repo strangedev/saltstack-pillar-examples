@@ -6,3 +6,4 @@ base:
     - groupnames
     - docker
     - git-remote
+    - rancher
