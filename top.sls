@@ -4,6 +4,7 @@ base:
     - shell
     - users
     - groupnames
+    - packagenames
     - docker
     - git-remote
     - rancher
