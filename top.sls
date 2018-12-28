@@ -8,3 +8,4 @@ base:
     - docker
     - git-remote
     - rancher
+    - samba
