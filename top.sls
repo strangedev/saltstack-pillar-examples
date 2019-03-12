@@ -9,3 +9,4 @@ base:
     - git-remote
     - rancher
     - samba
+    - kubernetes
