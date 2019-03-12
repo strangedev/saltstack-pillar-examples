@@ -28,11 +28,11 @@ docker:
   repository:
     # name
     {% if grains['lsb_distrib_release'] == '18.04'%}
-    - name: deb [arch=amd64] https://download.docker.com/linux/ubuntu bionic stable
+    name: deb [arch=amd64] https://download.docker.com/linux/ubuntu bionic stable
     {% elif grains['lsb_distrib_release'] == '16.04' %}
-    - name: deb [arch=amd64] https://download.docker.com/linux/ubuntu xenial stable
+    name: deb [arch=amd64] https://download.docker.com/linux/ubuntu xenial stable
     {% elif grains['lsb_distrib_release'] == '14.04' %}
-    - name: deb [arch=amd64] https://download.docker.com/linux/ubuntu trusty stable
+    name: deb [arch=amd64] https://download.docker.com/linux/ubuntu trusty stable
     {% endif %}
 
     key_url: https://download.docker.com/linux/ubuntu/gpg
@@ -40,10 +40,10 @@ docker:
   repository:
     # name
     {% if grains['lsb_distrib_release'].startswith("9") %}
-    - name: deb [arch=amd64] https://download.docker.com/linux/debian stretch stable
+    name: deb [arch=amd64] https://download.docker.com/linux/debian stretch stable
     {% endif %}
 
-    - key_url: https://download.docker.com/linux/debian/gpg
+    key_url: https://download.docker.com/linux/debian/gpg
   {% else %}
   repository: False
   {% endif %}
