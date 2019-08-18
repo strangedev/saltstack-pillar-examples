@@ -1,4 +1,3 @@
 git-users:
-  - hummel
-  - ciordas
-  - biedermann
+  - strangedev
+  - yeldir
