@@ -1,1 +1,1 @@
-shell: /bin/bash
+shell: /bin/zsh

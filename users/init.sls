@@ -1,23 +1,18 @@
 users:  # these users will be created and updated
-  ciordas:
-  hummel:
+  strangedev:
     fullname: Noah Hummel
-  wollny:
-  biedermann:
-  ahmad:
+  yeldir:
+    fullname: Hannes Leutloff
 
-alumni:  # these users and all of their data will be removed
-  - testuser
+alumni: [] # these users and all of their data will be removed
 
 groups:  # group membership is defined here
   sudo:
-    - ciordas
-    - hummel
+    - strangedev
+    - yeldir
   kubernetes:
-    - ciordas
-    - hummel
+    - strangedev
+    - yeldir
   docker:
-    - ciordas
-    - hummel
-    - wollny
-    - biedermann
+    - strangedev
+    - yeldir
