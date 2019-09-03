@@ -17,4 +17,4 @@ kubernetes:
   repository: False
   {% endif %}
 
-  version: '1.14.*'
+  version: '1.15.*'
